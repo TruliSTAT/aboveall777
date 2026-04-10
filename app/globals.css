@@ -2,26 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Fredoka:wght@300;400;500;600;700&family=Comfortaa:wght@300;400;500;600;700&family=Nunito:wght@300;400;500;600;700;800&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-offwhite text-brand-dark font-nunito;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn-primary {
+    @apply bg-tiffany text-white font-comfortaa font-semibold px-6 py-3 rounded-full transition-all duration-200 hover:bg-tiffany-dark hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent text-tiffany border-2 border-tiffany font-comfortaa font-semibold px-6 py-3 rounded-full transition-all duration-200 hover:bg-tiffany hover:text-white hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-gold {
+    @apply bg-gold text-white font-comfortaa font-semibold px-6 py-3 rounded-full transition-all duration-200 hover:opacity-90 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .gold-rule {
+    @apply w-full h-px bg-gold my-4;
+  }
+
+  .section-eyebrow {
+    @apply font-comfortaa text-gold text-xs uppercase tracking-widest font-semibold;
+  }
+
+  .section-title {
+    @apply font-fredoka text-4xl text-brand-dark font-semibold;
+  }
+
+  .scripture-callout {
+    @apply border-l-4 border-gold bg-tiffany-pale/50 pl-6 py-4 rounded-r-lg italic font-nunito text-tiffany-dark;
+  }
+
+  .category-pill {
+    @apply text-xs font-comfortaa font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-tiffany-pale text-tiffany-dark;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5FAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #81D8D0;
+  border-radius: 3px;
+}
+
+/* Custom selection */
+::selection {
+  background-color: #D4F2F0;
+  color: #2A9E97;
 }
