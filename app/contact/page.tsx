@@ -3,11 +3,12 @@ import { Logo777 } from '@/components/ui/Logo777'
 import { GoldRuleLine } from '@/components/ui/GoldRuleLine'
 
 const socials = [
-  { name: 'Instagram', handle: '@aboveall777', href: 'https://instagram.com/aboveall777', icon: '📸' },
-  { name: 'TikTok', handle: '@aboveall777', href: 'https://tiktok.com/@aboveall777', icon: '🎵' },
+  { name: 'Instagram', handle: '@above.all.777', href: 'https://instagram.com/above.all.777', icon: '📸' },
+  { name: 'TikTok', handle: '@above.all.777', href: 'https://tiktok.com/@above.all.777', icon: '🎵' },
   { name: 'Pinterest', handle: '@aboveall777', href: 'https://pinterest.com/aboveall777', icon: '📌' },
   { name: 'YouTube', handle: '@aboveall777', href: 'https://youtube.com/@aboveall777', icon: '▶️' },
   { name: 'X / Twitter', handle: '@aboveall777', href: 'https://x.com/aboveall777', icon: '✖️' },
+  { name: 'Facebook', handle: '@aboveall777', href: 'https://facebook.com/aboveall777', icon: '📘' },
 ]
 
 export default function ContactPage() {

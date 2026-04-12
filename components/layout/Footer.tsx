@@ -41,10 +41,12 @@ export function Footer() {
             {/* Social Icons */}
             <div className="flex gap-4 mt-6">
               {[
-                { name: 'Instagram', href: 'https://instagram.com/aboveall777' },
-                { name: 'TikTok', href: 'https://tiktok.com/@aboveall777' },
+                { name: 'Instagram', href: 'https://instagram.com/above.all.777' },
+                { name: 'TikTok', href: 'https://tiktok.com/@above.all.777' },
                 { name: 'Pinterest', href: 'https://pinterest.com/aboveall777' },
                 { name: 'YouTube', href: 'https://youtube.com/@aboveall777' },
+                { name: 'X', href: 'https://x.com/aboveall777' },
+                { name: 'Facebook', href: 'https://facebook.com/aboveall777' },
               ].map(social => (
                 <a
                   key={social.name}

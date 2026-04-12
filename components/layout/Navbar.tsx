@@ -177,15 +177,22 @@ export function Navbar() {
                 Join the 777 →
               </Link>
               <div className="flex justify-center gap-6 pt-2">
-                {['Instagram', 'TikTok', 'Pinterest', 'YouTube'].map(s => (
+                {[
+                  { name: 'Instagram', href: 'https://instagram.com/above.all.777' },
+                  { name: 'TikTok', href: 'https://tiktok.com/@above.all.777' },
+                  { name: 'Pinterest', href: 'https://pinterest.com/aboveall777' },
+                  { name: 'YouTube', href: 'https://youtube.com/@aboveall777' },
+                  { name: 'X', href: 'https://x.com/aboveall777' },
+                  { name: 'Facebook', href: 'https://facebook.com/aboveall777' },
+                ].map(s => (
                   <a
-                    key={s}
-                    href={`https://${s.toLowerCase()}.com/${s === 'YouTube' ? '@' : ''}aboveall777`}
+                    key={s.name}
+                    href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-comfortaa text-xs text-tiffany-dark hover:text-tiffany transition-colors"
                   >
-                    {s}
+                    {s.name}
                   </a>
                 ))}
               </div>
