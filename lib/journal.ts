@@ -15,10 +15,10 @@ export const articles: Article[] = [
     title: 'Why I Started Above All 777 at 14',
     category: 'Founder Notes',
     excerpt: "I was 14 when I realized I was looking for something at the intersection of two worlds I loved: my faith and my sport.",
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
     readTime: '4 min read',
-    body: `My name is Tiffany Nichole Morgado. I'm 14 years old, I've attended Catholic school my entire life, and I believe faith and sport belong together.
+    body: `My name is Tiffany. I'm 14 years old, I've attended Catholic school my entire life, and I believe faith and sport belong together.
 
 I started Above All 777 because I couldn't find athletic apparel that reflected who I actually am — a girl who loves golf, pickleball, tennis, and yoga, and who doesn't check her faith at the door when she walks onto the court.
 
@@ -35,7 +35,7 @@ Above All 777. Play with purpose.
     title: 'How Golf Taught Me Patience (and Prayer)',
     category: 'Sport',
     excerpt: "There is no sport quite like golf for forcing you to slow down. To breathe. To trust. To surrender the outcome.",
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
     readTime: '5 min read',
     body: `There is no sport quite like golf for forcing you to slow down.
@@ -59,7 +59,7 @@ Play with purpose.`,
     title: '777: A Number That Changed Everything',
     category: 'Faith',
     excerpt: "Seven is the number of divine completion. In scripture, in tradition, and now — on every piece of Above All 777.",
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
     readTime: '3 min read',
     body: `Numbers mean things.
@@ -81,7 +81,7 @@ Made for more. Made above all.`,
     title: 'How Pickleball Became My Prayer',
     category: 'Sport',
     excerpt: "I never expected to find God on a pickleball court. But there He was — in the joy, the community, the quick hands and steady heart.",
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
     readTime: '4 min read',
     body: `I never expected to find God on a pickleball court.
@@ -103,7 +103,7 @@ God is in all of it. Quick hands. Steady heart.`,
     title: 'Dressing with Intention: What You Wear Matters',
     category: 'Lifestyle',
     excerpt: "What if getting dressed was an act of faith? What if the clothes you put on before practice could shape how you show up?",
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
     readTime: '3 min read',
     body: `What if getting dressed was an act of faith?

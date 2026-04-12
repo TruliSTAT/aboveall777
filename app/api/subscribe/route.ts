@@ -78,7 +78,7 @@ function getWelcomeEmailHTML(firstName?: string): string {
               <p style="font-size:16px;color:#2A2A2A;line-height:1.7;margin:0 0 8px;">Above all — I'm grateful you're here.</p>
               <p style="font-size:16px;color:#2A2A2A;margin:0 0 4px;">With faith + love,</p>
               <p style="font-size:24px;color:#4BBDB5;font-style:italic;margin:0;">Tiffany</p>
-              <p style="font-size:12px;color:#999;margin:6px 0 0;">Tiffany Nichole Morgado · Founder, Above All 777 ✦</p>
+              <p style="font-size:12px;color:#999;margin:6px 0 0;">Tiffany · Founder, Above All 777 ✦</p>
             </td></tr>
             <tr><td style="background:#2A2A2A;padding:32px 40px;text-align:center;">
               <p style="color:#4BBDB5;font-size:14px;font-weight:bold;margin:0 0 8px;letter-spacing:3px;">ABOVE ALL 777</p>

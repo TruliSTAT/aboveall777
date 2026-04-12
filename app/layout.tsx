@@ -6,7 +6,7 @@ import { AnnouncementBar } from '@/components/layout/AnnouncementBar'
 
 export const metadata: Metadata = {
   title: 'Above All 777 — Faith-Inspired Sportswear',
-  description: 'Faith-inspired athletic and sportswear for teen girls and collegiate women. Golf, Pickleball, Tennis, Yoga. Founded by Tiffany Nichole Morgado, age 14.',
+  description: 'Faith-inspired athletic and sportswear for teen girls and collegiate women. Golf, Pickleball, Tennis, Yoga. Founded by Tiffany, age 14.',
   keywords: 'faith sportswear, women athletic wear, golf apparel, pickleball, tennis, yoga, christian sportswear, 777',
   openGraph: {
     title: 'Above All 777',

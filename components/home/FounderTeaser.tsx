@@ -16,7 +16,7 @@ export function FounderTeaser() {
                 </div>
                 <p className="font-sacramento text-5xl text-white mb-2">Above All</p>
                 <p className="font-fredoka font-bold text-4xl text-white/80">777</p>
-                <p className="font-nunito text-white/60 text-sm mt-4">Tiffany Nichole Morgado</p>
+                <p className="font-nunito text-white/60 text-sm mt-4">Tiffany</p>
               </div>
               {/* Decorative gold rule */}
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gold" />
@@ -35,7 +35,7 @@ export function FounderTeaser() {
             <GoldRuleLine width="w-16" />
 
             <p className="font-nunito text-brand-dark/70 text-lg leading-relaxed">
-              Tiffany Nichole Morgado grew up on the court and in the pew. At 14, she launched
+              Tiffany grew up on the court and in the pew. At 14, she launched
               Above All 777 — a brand that proves your best game starts when you play for
               something greater than yourself.
             </p>

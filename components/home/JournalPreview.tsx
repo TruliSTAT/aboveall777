@@ -8,7 +8,7 @@ const articles = [
     title: "Why I Started Above All 777 at 14",
     excerpt: "I was 14 when I realized I was looking for something at the intersection of two worlds I loved: my faith and my sport.",
     slug: 'why-i-started-above-all-777',
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
   },
   {
@@ -16,7 +16,7 @@ const articles = [
     title: "How Golf Taught Me Patience (and Prayer)",
     excerpt: "There is no sport quite like golf for forcing you to slow down. To breathe. To trust. To surrender the outcome.",
     slug: 'golf-patience-and-prayer',
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
   },
   {
@@ -24,7 +24,7 @@ const articles = [
     title: "777: A Number That Changed Everything",
     excerpt: "Seven is the number of divine completion. In scripture, in tradition, and now — on every piece of Above All 777.",
     slug: '777-a-number-that-changed-everything',
-    author: 'Tiffany Nichole Morgado',
+    author: 'Tiffany',
     date: 'April 2026',
   },
 ]

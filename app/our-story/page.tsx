@@ -44,7 +44,7 @@ export default function OurStoryPage() {
 
           <div className="prose prose-lg max-w-none font-nunito text-brand-dark/80 leading-relaxed space-y-6">
             <p className="text-xl font-semibold text-brand-dark">
-              My name is Tiffany Nichole Morgado. I&apos;m 14 years old, I&apos;ve attended Catholic school my entire life, and I believe faith and sport belong together.
+              My name is Tiffany. I&apos;m 14 years old, I&apos;ve attended Catholic school my entire life, and I believe faith and sport belong together.
             </p>
 
             <p>

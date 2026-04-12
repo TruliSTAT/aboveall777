@@ -54,7 +54,7 @@ export function HeroSection() {
 
           {/* Social proof */}
           <p className="font-nunito text-sm italic text-brand-dark/50">
-            Founded by Tiffany Nichole Morgado, age 14
+            Founded by Tiffany, age 14
           </p>
         </div>
 

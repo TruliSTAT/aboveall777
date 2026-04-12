@@ -36,7 +36,7 @@ export function Footer() {
             </p>
             <p className="font-nunito text-white/50 text-xs mt-3">
               Faith-inspired sportswear for teen and collegiate women.<br />
-              Founded by Tiffany Nichole Morgado, age 14.
+              Founded by Tiffany, age 14.
             </p>
             {/* Social Icons */}
             <div className="flex gap-4 mt-6">
